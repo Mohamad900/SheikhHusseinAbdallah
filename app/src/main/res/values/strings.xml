@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">محاضرات الشيخ حسين عبد الله</string>
+
+    <string name="content_about">هذا التطبيق يضع بين أيديكم مجموعة من  المحاضرات الفقهية في شتى الأبواب لسماحة الشيخ حسين عبد الله عضو المكتب الشّرعي في مؤسّسة العلامة المرجع
+        السيّد محمد حسين فضل الله(رض) كما يوفر التطبيق الكثير من الميزات كالبحث والإشعارات  وغيرها
+    </string>
+
+
+    <!--All string for ActivityNotifications.java -->
+    <string name="title_activity_notifications">الإشعارات</string>
+
+    <!--All string for ActivityDialogNotification.java -->
+    <string name="delete_successfully">تم الحذف بنجاح</string>
+    <string name="title_activity_dialog_notification">الإشعار</string>
+
+    <!--All string for ActivitySettings.java : xml/setting_preference.xml -->
+    <string name="title_activity_settings">الإعدادات</string>
+    <string name="app_version">الإصدار</string>
+    <string name="wtp_number">+96103935651</string>
+    <string name="developer_email">s.hussain_abdallah@hotmail.com</string>
+    <!--<string name="copyright">Copyright © 2016 Dream Space. \nAll right reserved</string>-->
+
+    <string name="pref_group_notif">الإشعارات</string>
+    <string name="pref_group_others">التطبيق</string>
+    <string name="pref_title_notif">Push Notifications</string>
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="pref_title_copyright">Copyright</string>
+    <string name="pref_title_contact_us">Contact Us</string>
+    <string name="pref_title_wtp">WhatsApp</string>
+    <string name="pref_title_build">Build Version &amp; Serial </string>
+    <string name="pref_title_term">Term &amp; Policies</string>
+    <string name="pref_title_about">حول التطبيق</string>
+    <string name="pref_ringtone_silent">صامت</string>
+    <string name="grant_permission_storage">   لتفعيل ميزة الإشعارات عليك منح التطبيق اذن الوصول لذاكرة الهاتف من الإعدادات</string>
+    <string name="version_unknown">غير معروف</string>
+
+    <!--All string for ActivitySettings.java : xml/setting_preference.xml -->
+    <string name="default_notification_channel_id">Default</string>
+    <string name="msg_notif_empty">لا يوجد إشعارات</string>
+    <string name="type_video">فيديو</string>
+    <string name="type_playlist">تصنيف</string>
+    <string name="type_link">رابط</string>
+    <string name="type_image">صورة</string>
+    <string name="type_normal">عادي</string>
+
+
+    <!--All string for ActivitySplash.java -->
+    <string name="title_unable_connect">فشل الإتصال بالسيرفر</string>
+    <string name="msg_unable_connect">السيرفر معطّل مؤقتا أو قيد الصيانة</string>
+    <string name="msg_app_out_date">يرجى تحديث التطبيق لأخر إصدار</string>
+    <string name="msg_no_internet">تحقق من اتصالك بالإنترنت وحاول مرة أخرى</string>
+    <string name="title_info">إنتبه</string>
+    <string name="title_no_internet">غير متصل بالإنترنيت</string>
+
+
+    <!--All string for ActivityMain.java -->
+    <string name="navigation_menu_home">الصفحة الرئيسية</string>
+    <string name="navigation_menu_video">الفيديوهات</string>
+    <string name="navigation_menu_playlist">التصنيفات</string>
+    <string name="navigation_menu_favorite">المفضلة</string>
+    <string name="press_again_exit_app">اضغط مرة أخرى للخروج</string>
+
+    <!--All string for FragmentHome.java -->
+    <string name="home_section_recent">الأحدث</string>
+    <string name="home_section_videos">فيديوهات</string>
+    <string name="home_section_featured">مميزة</string>
+    <string name="home_section_playlist">تصنيفات</string>
+    <string name="home_section_tags">علامات</string>
+    <string name="home_playlist_video_count">%1$d فيديوهات</string>
+    <string name="home_playlist_video_count_1">%1$d فيديو</string>
+
+    <!--All string for ActivityVideoDetails.java -->
+    <string name="error_init_failure">فشل التهيئة: تعذر تشغيل الفيديو</string>
+    <string name="video_details_description">وصف</string>
+    <string name="video_details_playlist">تصنيفات</string>
+    <string name="video_details_tags">علامات</string>
+    <string name="video_details_related">ذات صلة</string>
+
+    <!--All string for ActivityPlaylistDetails.java -->
+    <string name="playlist_details_video_count">%1$d فيديوهات</string>
+
+    <!--All string for ActivitySearch.java -->
+    <string name="hint_input_search">بحث</string>
+
+    <!--All string for ActivitySearchFilter.java -->
+    <string name="title_search_filter">إعدادات البحث</string>
+    <string name="search_filter_playlist">التصنيفات</string>
+    <string name="search_filter_tags">العلامات</string>
+
+    <!--String for toolbar menu-->
+    <string name="menu_toolbar_search">بحث</string>
+    <string name="menu_toolbar_notification">Notification</string>
+    <string name="menu_toolbar_settings">إعدادات</string>
+    <string name="menu_toolbar_rate_app">قيم التطبيق</string>
+    <string name="menu_toolbar_about">حول التطبيق</string>
+    <string name="menu_toolbar_delete">Delete</string>
+    <string name="menu_toolbar_share">شارك التطبيق</string>
+    <string name="menu_toolbar_close">أغلق</string>
+<!--    <string name="menu_toolbar_refresh">Refresh</string>-->
+    <string name="menu_toolbar_open_browser">فتح من خلال المتصفح</string>
+
+    <!--Other String -->
+    <string name="failed_text">هناك خطأ ما</string>
+    <string name="failed_when_load">فشل عند تحميل البيانات</string>
+    <string name="no_internet_text">غير متصل  بالانترنت</string>
+    <string name="no_item">لا يوجد</string>
+    <string name="please_fill">يرجى تعيين إعدادت البحث</string>
+    <string name="all_playlist">جميع التصنيفات</string>
+    <string name="hint_input_search_playlist">بحث</string>
+    <string name="title_delete_confirm">تأكيد الحذف</string>
+    <string name="content_delete_confirm">هل تريد حذف جميع&#160;</string>
+    <string name="delete_success">تم الحذف بنجاح</string>
+
+    <string name="FEATURED">مميز</string>
+    <string name="MORE">المزيد</string>
+    <string name="SEE_ALL">اظهار الكل</string>
+    <string name="OK">حسنا</string>
+    <string name="GOT_IT">حسنا</string>
+    <string name="YES">نعم</string>
+    <string name="NO">لا</string>
+    <string name="APPLY">بحث</string>
+    <string name="RESET">إعادة التعيين</string>
+    <string name="SETTING">الإعدادات</string>
+    <string name="CANCEL">إلغاء</string>
+    <string name="CLOSE">أغلق</string>
+    <string name="UPDATE">تحديث</string>
+    <string name="DISMISS">إلغاء</string>
+    <string name="HIDE">إخفاء</string>
+    <string name="RETRY">أعد المحاولة</string>
+    <string name="TRY_AGAIN">حاول مرة أخرى</string>
+    <string name="DETAILS">تفاصيل</string>
+    <string name="FAILED">هناك خطأ ما</string>
+    <string name="DELETE">حذف</string>
+    <string name="OPEN">فتح</string>
+    <string name="SAVE">حفظ</string>
+    <string name="NEXT">التالي</string>
+    <string name="SKIP">تخطى</string>
+    <string name="WATCHED">تمت مشاهدته</string>
+
+</resources>

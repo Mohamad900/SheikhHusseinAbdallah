@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+
+    <!--Youtube property -->
+    <entry>
+        <key>youtube_api_key</key>
+        <value>AIzaSyAYYl2ffKBWcsOLrE7Hdv7Xip3x9gDqSP4</value><!--AIzaSyAYYl2ffKBWcsOLrE7Hdv7Xip3x9gDqSP4-->
+    </entry>
+
+</defaultsMap>

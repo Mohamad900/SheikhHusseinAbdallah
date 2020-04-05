@@ -1,0 +1,55 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="@string/pref_group_notif"
+        android:title="@string/pref_group_notif">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/pref_title_notif"
+            android:title="الإشعارات" />
+
+        <RingtonePreference
+            android:defaultValue="content://settings/system/notification_sound"
+            android:dependency="@string/pref_title_notif"
+            android:key="@string/pref_title_ringtone"
+            android:ringtoneType="notification"
+            android:title="نغمة الرنين" />
+
+        <CheckBoxPreference
+            android:layoutDirection="rtl"
+            android:textDirection="rtl"
+            android:defaultValue="true"
+            android:dependency="@string/pref_title_notif"
+            android:key="@string/pref_title_vibrate"
+            android:title="وضعية الإهتزاز" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="تواصل معنا">
+        <Preference
+            android:key="@string/pref_title_contact_us"
+            android:summary="@string/developer_email"
+            android:layoutDirection="rtl"
+            android:textDirection="rtl"
+            android:title="البريد الإلكتروني" />
+<!--        <Preference
+            android:summary="@string/copyright"
+            android:title="@string/pref_title_copyright" />-->
+        <Preference
+            android:key="@string/pref_title_wtp"
+            android:summary="@string/wtp_number"
+            android:layoutDirection="rtl"
+            android:textDirection="rtl"
+            android:title="واتساب" />
+       <!-- <Preference
+            android:key="@string/pref_title_term"
+            android:title="@string/pref_title_term" />-->
+<!--        <Preference
+            android:key="@string/pref_title_about"
+            android:layoutDirection="rtl"
+            android:textDirection="rtl"
+            android:title="@string/pref_title_about" />-->
+    </PreferenceCategory>
+
+</PreferenceScreen>

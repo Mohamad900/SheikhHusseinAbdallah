@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:layoutDirection="rtl"
+    android:textDirection="rtl"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/grey_10" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/spacing_large"
+        android:layout_marginRight="@dimen/spacing_large"
+        android:layout_marginTop="@dimen/spacing_middle"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="200dp"
+                android:layout_height="@dimen/spacing_mxlarge"
+                android:background="@color/grey_10" />
+
+            <View
+                android:layout_width="250dp"
+                android:layout_height="@dimen/spacing_large"
+                android:layout_marginTop="@dimen/spacing_xmedium"
+                android:background="@color/grey_10" />
+
+            <View
+                android:layout_width="150dp"
+                android:layout_height="@dimen/spacing_large"
+                android:layout_marginTop="@dimen/spacing_xmedium"
+                android:background="@color/grey_10" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/spacing_xxlarge"
+            android:layout_height="@dimen/spacing_mlarge"
+            android:background="@color/grey_10" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="@dimen/spacing_large"
+        android:background="@color/grey_10" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/spacing_middle"
+        android:layout_marginRight="@dimen/spacing_middle"
+        android:orientation="vertical">
+
+        <include layout="@layout/loading_fragment_video" />
+
+        <include layout="@layout/loading_fragment_video" />
+
+        <include layout="@layout/loading_fragment_video" />
+
+    </LinearLayout>
+
+</LinearLayout>
